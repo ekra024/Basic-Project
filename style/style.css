@@ -2,7 +2,7 @@
 
 *{
     font-family: "Azeret Mono", monospace;
-
+    margin-bottom: 0px;
 }
 
 .nav{
@@ -52,7 +52,7 @@
   background: rgba(13, 19, 33, 0.02);
   text-align: center;
   border-radius: 16px;
-  
+  padding-bottom: 2px;
 }
 
 p{
@@ -159,4 +159,26 @@ input{
 }
 .input2{
   font-weight: 700;
+}
+#footer{
+  background: rgba(13, 19, 33, 0.03);
+  
+  padding: 0px 10px 20px;
+}
+.footer-container{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 1000px;
+  margin:0 auto;
+}
+
+.social-media{
+  margin-top: 25px;
+  display: flex;
+  gap:10px;
+}
+
+.social-media div a img{
+  width: 20px;
 }
